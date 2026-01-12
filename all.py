@@ -1,4 +1,3 @@
-
 # Financial Consolidation – Source Code Dump
 
 **Source Path:** `/home/reda/source/central_sync/custom_addons/financial_consolidation`
@@ -55,6 +54,7 @@ from . import wizards
         
         # Views
         'views/subsidiary_views.xml',
+        
         'views/sync_engine_views.xml',
         'views/mapping_views.xml',
         'views/media_views.xml',
@@ -6611,6 +6611,9 @@ class MediaAccountMove(models.Model):
         
         _logger.info(f'Cleaned up {count} old media moves')
         return count
+    
+   
+        
 ```
 
 ---
